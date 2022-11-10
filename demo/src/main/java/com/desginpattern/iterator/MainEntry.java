@@ -4,7 +4,7 @@ import java.util.Iterator;
 import java.util.List;
 
 // <snippet_classdef_1>
-public class Main {
+public class MainEntry {
 
     public static void main(String[] args) {
 

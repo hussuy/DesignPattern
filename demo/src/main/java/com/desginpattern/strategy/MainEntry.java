@@ -2,7 +2,7 @@ package com.desginpattern.strategy;
 
 
 // <snippet_classdef_1>
-public class StrategyMain {
+public class MainEntry {
 
     public static void main(String[] args) {
         Bicycle bicycle = new Bicycle();
