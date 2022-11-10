@@ -29,7 +29,7 @@ public class BookShelf implements Aggregate {
     }
 
     @Override
-    public Iterator createIterator() {
+    public Iterator<Book> createIterator() {
         return new BookShelfIterator(this);
     }
 }

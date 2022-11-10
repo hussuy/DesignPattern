@@ -21,7 +21,7 @@ public class MainEntry {
 
         System.out.println("현재 꽂혀있는 책 : " + bookShelf.getLength() + "권");
 
-        Iterator it = bookShelf.createIterator();
+        Iterator<Book> it = bookShelf.createIterator();
         while (it.hasNext()) {
             Book book = (Book) it.next();
             System.out.println(book.getName());
@@ -51,7 +51,7 @@ public class MainEntry {
         array = new ArrayList<String>(List.of("1","2","3","4"));
 
 
-        Iterator il = array.iterator();
+        Iterator<String> il = array.iterator();
 
 
         while(il.hasNext()){

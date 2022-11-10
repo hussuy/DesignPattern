@@ -3,5 +3,5 @@ import java.util.Iterator;
 
 public interface Aggregate {
 
-    public abstract Iterator createIterator();
+    public abstract Iterator<Book> createIterator();
 }
