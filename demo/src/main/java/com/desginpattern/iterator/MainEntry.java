@@ -7,11 +7,8 @@ import java.util.List;
 public class MainEntry {
 
     public static void main(String[] args) {
-
-
         BookShelf bookShelf = new BookShelf(10);
-
-        Book book1 = new Book("Bilbe");
+        Book book1 = new Book("Bible");
         Book book2 = new Book("Cinderella");
         Book book3 = new Book("Daddy-Long-Legs");
 
@@ -28,13 +25,7 @@ public class MainEntry {
         }
 
 
-    
-
-
-
-
-
-
+        // 일반 arraylist 요소 삭제와 iterator를 통한 요소 삭제 
 
         ArrayList<String> array = new ArrayList<String>(List.of("1","2","3","4"));
 
@@ -49,11 +40,7 @@ public class MainEntry {
 
         System.out.println("=======================");
         array = new ArrayList<String>(List.of("1","2","3","4"));
-
-
         Iterator<String> il = array.iterator();
-
-
         while(il.hasNext()){
             String v = il.next().toString();
             System.out.println(v);
@@ -62,10 +49,6 @@ public class MainEntry {
                 il.remove();
 
         }
-
-
-   
-
     }
 
 }
